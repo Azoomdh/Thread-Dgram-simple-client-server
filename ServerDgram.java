@@ -84,10 +84,8 @@ public class ServerDgram{
     }
 
     public void chayChuongTrinh(){
-        while(true){
             threadNhanTinNhan.start();
             threadGuiTinNhan.start();
-        }
     }
 
     /*bat dau*/

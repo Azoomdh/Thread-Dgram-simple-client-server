@@ -89,10 +89,8 @@ public class ClientDgram{
 
     public void chayChuongTrinh(){
         
-        while(true){
             threadGuiTinNhan.start();
             threadNhanTinNhan.start();
-        }
     }
 
     public static void main(String[] args) throws SocketException, UnknownHostException {
